@@ -17,6 +17,11 @@
 I’d like to mention that the format of the data was maintained to resemble the initial one, but for a real life implementation I’d add more processing. For example, I might add a separate product_prices table to have separate rows for the different values (min, max, exact). Or simply separate the product price into more columns (price_min, price_max, price_amount, price_currency). For this challenge I felt that doing that for all columns wouldn’t have brought much value compared to the time it would have taken to implement, as I don’t think cleaning and restructuring data was the focus.
 
 ## Running the code
+Before running the code, the following environment variable must be set:
+JAVA_HOME = /path/to/java11
+(optional - for loading to PostgreSQL
+PG_PASS = postgres_pass
+PG_USER = postgres_user)
 
 After creating a virtual environment, it can be set up by running either
 ```

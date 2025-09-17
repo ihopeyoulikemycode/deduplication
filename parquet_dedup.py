@@ -161,7 +161,7 @@ def main():
 
     # Save results
     deduped.coalesce(1).write.parquet(
-        os.path.join("data", "final_deduped.snappy.parquet")
+        os.path.join("data", "products_deduped.snappy.parquet")
     )
 
     end_time = time.time()

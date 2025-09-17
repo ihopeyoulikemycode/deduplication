@@ -19,9 +19,9 @@ I’d like to mention that the format of the data was maintained to resemble the
 ## Running the code
 Before running the code, the following environment variable must be set:  
 JAVA_HOME = /path/to/java11  
-(optional - for loading to PostgreSQL  
+(_optional - for loading to PostgreSQL  
 PG_PASS = postgres_pass  
-PG_USER = postgres_user)
+PG_USER = postgres_user_)
 
 After creating a virtual environment, it can be set up by running either
 ```
